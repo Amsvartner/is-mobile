@@ -24,4 +24,3 @@ function isMobile(options) {
     return result;
 }
 export default isMobile;
-//# sourceMappingURL=isMobile.js.map
