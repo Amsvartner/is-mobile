@@ -1,0 +1,28 @@
+{
+  "name": "is-mobile",
+  "version": "1.0.0",
+  "description": "Check user agent string to discern if the user device is a mobile phone.",
+  "main": "src/index.ts",
+  "repository": "https://github.com/Amsvartner/is-mobile.git",
+  "author": "Vidar Farvald <vidar.farvald@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "yarn vitest",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+  },
+  "devDependencies": {
+    "@types/user-agents": "^1.0.4",
+    "eslint": "^8.56.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "user-agents": "^1.1.66",
+    "vitest": "^1.1.0"
+  }
+}
