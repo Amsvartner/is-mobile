@@ -12,8 +12,8 @@ https://github.com/juliangruber/is-mobile/tree/main
 ### Installation
 
 This package is not published on NPM (it's a TODO), so you'll have to add it to your project manually.
-- If you are using TypeScript, copy the contents of 'isMobile.ts' into a file in your own project, and import it from there.
-- If you are using JavaScript, you can use the compiled content in 'isMobile.js' instead.  
+- If you are using TypeScript, copy the contents of `isMobile.ts` into a file in your own project, and import it from there.
+- If you are using JavaScript, you can use the compiled content in `isMobile.js` instead.  
 
 ### Usage
 
