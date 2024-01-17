@@ -26,3 +26,7 @@ const isMobilePhoneOrTabletOrIPad = isMobile({ tablet: true, featureDetect: true
 ```
 
 For more ways to use this util, have a look in the test file.
+
+### Last words
+
+Some people will frown on you for using stuff like this ;)
